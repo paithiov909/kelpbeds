@@ -1,0 +1,22 @@
+Package: kelpbeds
+Title: Dictionary Tool for 'MeCab'
+Version: 0.1.0
+Authors@R: c(
+    person("Akiru", "Kato", , "paithiov909@gmail.com", role = c("aut", "cre")),
+    person("Nara Institute of Science", "and Technology", role = "cph"),
+    person("ICOT", "Free Software", role = "cph")
+  )
+Description: Provides the source 'IPAdic' for 'MeCab'.
+License: MIT + file LICENSE
+Depends:
+    R (>= 2.10)
+Imports:
+    readr
+Suggests:
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
+Encoding: UTF-8
+LazyData: true
+LazyDataCompression: xz
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.1

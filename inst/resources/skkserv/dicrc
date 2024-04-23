@@ -1,0 +1,8 @@
+cost-factor = 800
+bos-feature = BOS/EOS,*
+
+output-format-type = ime
+
+node-format-ime = %H
+unk-format-ime = %M
+eos-format-ime  = \n

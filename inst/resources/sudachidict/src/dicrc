@@ -1,0 +1,11 @@
+cost-factor = 800
+bos-feature = BOS/EOS,*,*,*,*,*,*,*,*,*,*
+eval-size = 6
+unk-eval-size = 4
+config-charset = UTF-8
+
+output-format-type = sudachi
+
+node-format-sudachi = %H
+unk-format-sudachi = %M
+eos-format-sudachi  = \n
