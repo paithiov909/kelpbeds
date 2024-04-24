@@ -16,7 +16,7 @@ prep_ipadic <- function(dic_dir = tempdir()) {
   )
   # Write csv file
   readr::write_csv(
-    ipadic,
+    kelpbeds::ipadic,
     file = file.path(dic_dir, "ipadic-all.csv"),
     na = "",
     col_names = FALSE,
@@ -28,7 +28,7 @@ prep_ipadic <- function(dic_dir = tempdir()) {
     file = file.path(dic_dir, "matrix.def")
   )
   readr::write_delim(
-    ipadicmat,
+    kelpbeds::ipadicmat,
     file.path(dic_dir, "matrix.def"),
     append = TRUE,
     progress = FALSE

@@ -15,7 +15,7 @@ prep_skkserv <- function(dic_dir = tempdir()) {
   )
   # Write csv file
   readr::write_csv(
-    skkserv,
+    kelpbeds::skkserv,
     file = file.path(dic_dir, "skkserv-all.csv"),
     na = "",
     col_names = FALSE,
@@ -27,7 +27,7 @@ prep_skkserv <- function(dic_dir = tempdir()) {
     file = file.path(dic_dir, "matrix.def")
   )
   readr::write_delim(
-    skkservmat,
+    kelpbeds::skkservmat,
     file.path(dic_dir, "matrix.def"),
     append = TRUE,
     progress = FALSE
