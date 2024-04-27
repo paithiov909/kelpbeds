@@ -7,7 +7,7 @@
 # https://github.com/WorksApplications/SudachiDict
 
 stopifnot(
-  require("this.path", quietly = TRUE),
+  requireNamespace("this.path", quietly = TRUE),
   requireNamespace("fs", quietly = TRUE),
   requireNamespace("readr", quietly = TRUE),
   requireNamespace("dplyr", quietly = TRUE),
